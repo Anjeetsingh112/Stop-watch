@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
+* {
+margin : 0; 
+padding: 0;
+box-sizing: border-box; 
+text-decoration: none;
+scroll-behavior: smooth;
+border: none;
+outline: none;
+}
+
+html, body {
+height: 100%; 
+width: 100%; 
+background-color: #1A282D;;
+display: flex;
+justify-content: center;
+ align-items: center;
+
+}
+.container{
+    color: #d7dfe4;
+  
+}
+h1{
+    border: 0.3rem solid  #d7dfe4 ;
+    text-align: center;
+    font-size: 3rem;
+    color:#d7dfe4;
+    padding: 1rem auto 1rem auto;
+    border-radius: 1rem;
+    font-weight: 700;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    letter-spacing: 5px;
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn-container{
+    text-align: center;
+    margin-top: 15px;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+}
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    margin: 0px 10px ;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: ease-in-out 0.5s;
+}
+.btn:focus{
+    border: 2px solid  #d7dfe4;
+}
+#start{
+   background-color: #1abc9c;
+}
+#stop{
+    background-color: #3498db;
+  }
+#reset{
+ background-color: #e74c3c;
+}
+@media( max-width:810px){
+    .digit{
+        font-size: 130px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 2.9rem;
+        padding: 0.9rem auto 0.9rem auto;
+    }
+    .btn{
+        padding: .8rem 1.6rem;
+        font-size: 1.1rem;
+        margin: 0px 9px;
+    }
+}
+@media( max-width:710px){
+    .digit{
+        font-size: 120px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 2.7rem;
+        padding: 0.8rem auto 0.8rem auto;
+    }
+    .btn{
+        padding: .7rem 1.4rem;
+        font-size: 1.1rem;
+        margin: 0px 9px;
+    }
+}
+@media( max-width:660px){
+    .digit{
+        font-size: 100px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 2.6rem;
+        padding: 0.8rem auto 0.8rem auto;
+    }
+    .btn{
+        padding: .65rem 1.3rem;
+        font-size: 1.0rem;
+        margin: 0px 8px;
+    }
+}
+@media( max-width:578px){
+    .digit{
+        font-size: 90px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 27px;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 2.4rem;
+        padding: 0.75rem auto 0.75rem auto;
+    }
+    .btn{
+        padding: .60rem 1.2rem;
+        font-size: 1.0rem;
+        margin: 0px 8px;
+    }
+}
+
+@media( max-width:525px){
+    .digit{
+        font-size: 75px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 2.3rem;
+        padding: 0.75rem auto 0.75rem auto;
+    }
+    .btn{
+        padding: .60rem 1.2rem;
+        font-size: .95rem;
+        margin: 0px 8px;
+    }
+}
+@media( max-width:460px){
+    .digit{
+        font-size: 65px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 2.2rem;
+        padding: 0.75rem auto 0.75rem auto;
+    }
+    .btn{
+        padding: 0.5rem 1.0rem;
+        font-size: .9rem;
+        margin: 0px 8px;
+    }
+}
+@media( max-width:390px){
+    .digit{
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    h1{
+        margin-bottom: 20px;
+        font-size: 2.0rem;
+        padding: 0.70rem auto 0.70rem auto;
+    }
+    .btn{
+        padding: 0.5rem 1.0rem;
+        font-size: .85rem;
+        margin: 0px 8px;
+    }
+}
+@media( max-width:330px){
+    .digit{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    h1{
+        margin-bottom: 17px;
+        font-size: 2.0rem;
+        padding: 0.70rem auto 0.70rem auto;
+    }
+    .btn{
+        padding: 0.4rem .8rem;
+        font-size: 0.8rem;
+        margin: 0px 8px;
+    }
+}
