@@ -3,10 +3,16 @@
 margin : 0; 
 padding: 0;
 box-sizing: border-box; 
+font-family:system-ui,-apple-system;
 text-decoration: none;
 scroll-behavior: smooth;
 border: none;
 outline: none;
+}
+
+html, body {
+height: 100%; 
+width: 100%; 
 }
 
 html, body {
@@ -30,11 +36,11 @@ h1{
     padding: 1rem auto 1rem auto;
     border-radius: 1rem;
     font-weight: 700;
-    font-family: "Barlow Semi Condensed", sans-serif;
+    /* font-family: "Barlow Semi Condensed", sans-serif; */
     letter-spacing: 5px;
 }
 .digit{
-    font-size: 150px;
+    font-size: 135px;
     font-weight: bold;
 }
 .txt{
@@ -68,13 +74,13 @@ h1{
 #reset{
  background-color: #e74c3c;
 }
-@media( max-width:810px){
+@media( max-width:850px){
     .digit{
-        font-size: 130px;
+        font-size: 125px;
         font-weight: bold;
     }
     .txt{
-        font-size: 35px;
+        font-size: 30px;
         font-weight: bold;
     }
     h1{
@@ -87,13 +93,13 @@ h1{
         margin: 0px 9px;
     }
 }
-@media( max-width:710px){
+@media( max-width:750px){
     .digit{
-        font-size: 120px;
+        font-size: 110px;
         font-weight: bold;
     }
     .txt{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
     }
     h1{
@@ -106,13 +112,13 @@ h1{
         margin: 0px 9px;
     }
 }
-@media( max-width:660px){
+@media( max-width:690px){
     .digit{
         font-size: 100px;
         font-weight: bold;
     }
     .txt{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
     }
     h1{
@@ -120,18 +126,18 @@ h1{
         padding: 0.8rem auto 0.8rem auto;
     }
     .btn{
-        padding: .65rem 1.3rem;
+        padding: .60rem 1.2rem;
         font-size: 1.0rem;
         margin: 0px 8px;
     }
 }
-@media( max-width:578px){
+@media( max-width:600px){
     .digit{
-        font-size: 90px;
+        font-size: 80px;
         font-weight: bold;
     }
     .txt{
-        font-size: 27px;
+        font-size: 20px;
         font-weight: bold;
     }
     h1{
@@ -147,11 +153,11 @@ h1{
 
 @media( max-width:525px){
     .digit{
-        font-size: 75px;
+        font-size: 70px;
         font-weight: bold;
     }
     .txt{
-        font-size: 25px;
+        font-size: 15px;
         font-weight: bold;
     }
     h1{
@@ -170,7 +176,7 @@ h1{
         font-weight: bold;
     }
     .txt{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
     h1{
@@ -183,9 +189,9 @@ h1{
         margin: 0px 8px;
     }
 }
-@media( max-width:390px){
+@media( max-width:410px){
     .digit{
-        font-size: 55px;
+        font-size: 50px;
         font-weight: bold;
     }
     .txt{
@@ -203,9 +209,9 @@ h1{
         margin: 0px 8px;
     }
 }
-@media( max-width:330px){
+@media( max-width:340px){
     .digit{
-        font-size: 50px;
+        font-size: 45px;
         font-weight: bold;
     }
     .txt{
@@ -216,6 +222,27 @@ h1{
         margin-bottom: 17px;
         font-size: 2.0rem;
         padding: 0.70rem auto 0.70rem auto;
+    }
+    .btn{
+        padding: 0.4rem .8rem;
+        font-size: 0.8rem;
+        margin: 0px 8px;
+    }
+}
+
+@media( max-width:310px){
+    .digit{
+        font-size: 35px;
+       
+    }
+    .txt{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    h1{
+        margin-bottom: 17px;
+        font-size: 1.6rem;
+        padding: 0.50rem auto 0.50rem auto;
     }
     .btn{
         padding: 0.4rem .8rem;
